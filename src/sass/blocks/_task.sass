@@ -1,0 +1,43 @@
+.task
+    position: relative
+    padding: 130px 0 180px 0
+    background: url(../img/bg/konferanse.jpg) center ( center / cover ) no-repeat
+    &__title
+        position: absolute
+        top: -20%
+        left: calc(5% - -12px)    
+        font-size: 52px
+        font-weight: 700
+        color: #00000000
+        -webkit-text-stroke: 1px
+        -webkit-text-stroke-color: $second-color
+    &__border
+        border: 2px solid $second-color
+        border-top: none
+        display: flex
+        justify-content: space-between
+        padding: 70px 0 70px 70px
+        position: relative
+        &::after 
+            content: ''
+            position: absolute
+            top: 0%
+            right: 0%
+            border-top: 2px solid $second-color
+            width: 860px
+        &::before 
+            content: ''
+            position: absolute
+            top: 0%
+            left: 0%
+            border-top: 2px solid $second-color
+            width: 60px
+    &__text
+        margin-right: 120px
+    &__subtitle
+        font-size: 24px
+        font-weight: 700
+        margin-bottom: 15px
+    &__descr
+        font-size: 18px
+        font-weight: 400

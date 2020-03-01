@@ -1,0 +1,322 @@
+.tuch
+    display: none
+@media ( max-width: 1440px )
+    .promo
+        &__puncts
+            margin: 0 45px 0 0
+@media ( max-width: 1200px )
+    //
+
+@media ( max-width: 1024px )
+    .container
+        padding: 0 60px
+    .hidden
+        display: none
+        ////
+    .burger-wrapper
+        position: fixed
+        z-index: 1
+    .tuch
+        display: block
+        position: fixed
+        top: 0%
+        left: -100%
+        background-color: #01000eaf
+        height: 100%
+        width: 0% 
+        z-index: 1
+        transition: 1s all
+        &-active
+            width: 70%
+            left: 0%
+        &-wrapper
+            display: flex
+            align-items: center
+            flex-direction: column
+            margin-top: 90px
+            a
+                font-size: 22px
+                font-weight: 400
+                text-transform: uppercase
+                text-decoration: none
+                margin-bottom: 30px
+        ////
+    .burger-wrapper
+        display: block
+        width: 100%
+        height: 60px
+        background-color: black
+    .burger__menu
+        position: relative
+        height: 60px
+        .wrapper
+            cursor: pointer
+            position: absolute
+            top: 30%
+            right: 10%
+        span
+            display: block
+            background-color: white
+            width: 30px
+            height: 2px
+            margin-bottom: 7px
+    .promo
+        padding: 60px 0px 150px 0px
+        &__menu
+            display: none
+        &__text
+            margin-top: 10px
+    .task
+        &__title
+            top: calc(-20% - -8px)
+            left: calc(5% - -5px)
+        &__border
+            padding: 50px 0 50px 50px
+            &::after
+                width: 630px
+            &::before
+                width: 30px
+    .study
+        &__subtitle
+            font-size: 46px
+        &__project
+            &-img
+                width: 800px
+    .decision
+        padding: 60px 0 70px 0 
+        &__parsing
+            width: 40%
+            padding: 40px 
+            &::after
+                width: 70px
+            &::before
+                width: 20px
+        &__wrapper
+            width: 40%
+        hr
+            width: 350px
+            margin: 30px 0
+        &__liner
+            width: 340px
+            top: calc(-15% - 20px)
+        &__advantages
+            width: 500px
+            top: calc(25% - -30px)
+    .total
+        height: 500px
+    .reviews
+        &__title
+            font-size: 46px
+        &__img
+            margin-right: 30px
+    .footer
+        .noorsoft
+            font-size: 18px
+        .privacy
+            font-size: 18px
+@media ( max-width: 992px )
+    .task
+        &__title
+            top: calc(-20% - -15px)
+        &__border
+            &::after
+                width: 600px
+    .decision 
+        &__parsing
+            &::after
+                width: 60px
+@media ( max-width: 768px )
+    .hidden-img
+        display: none
+    .promo
+        &__wrapper
+            display: block
+        &__text
+            margin: 0 auto
+            width: 80%
+    .task
+        &__title
+            top: calc(-15% - 10px)
+            left: calc(10% - 15px)
+        &__text 
+            margin-right: 50px
+        &__border
+            padding: 40px 0 30px 20px 
+            &::after
+                width: 380px
+    .decision 
+        &__parsing
+            &::after
+                width: 60px
+    .study
+        padding: 50px 0 20px 0
+        &__information
+            align-items: end
+        &__subtitle
+            margin-bottom: 20px
+            font-size: 30px
+        &__text
+            margin: 0 0 0 30px
+        &__border
+            margin: 50px 0 0 0
+            padding: 30px 30px 40px 30px
+        &__wrapper
+            margin-top: 50px
+        &__project
+            &-img
+                width: 600px
+    .decision
+        &__parsing
+            width: 100%
+            &::after
+                width: 330px
+            &::before
+                width: 40px
+            .parsing-title
+                top: calc(-50% - 10px)
+                left: calc(10% - 10px)
+        &__block
+            width: 100%
+        &__wrapper
+            min-width: 100%
+        hr
+            width: 100%
+            margin: 40px 0
+    .total
+        height: 400px
+        &__text
+            top: 30%
+            left: 30%
+    .reviews
+        &__title
+            font-size: 30px
+        &__descr
+            font-size: 18px
+        &__subtitle
+            font-size: 24px
+@media ( max-width: 576px )
+    .hidden-lup
+        display: none
+    .container
+        padding: 0 20px
+    .promo
+        &__title
+            font-size: 36px
+        &__text
+            margin: 0 auto
+            width: 100%
+            text-align: center
+        &__descr
+            width: 90%
+            margin: 0 auto
+    .task
+        &__border
+            &::after
+                width: 250px
+        &__text
+            margin-right: 20px
+        &__title
+            top: calc(-20% - -20px)
+            left: calc(5% - -25px)
+    .study
+        &__text
+            margin: 0
+        &__border
+            border: none
+            padding: 0
+        &__block-comment
+            padding: 20px 10px 20px 20px 
+        &__number
+            margin: 0 20px 0 0
+        .line
+            height: 580px
+        &__project
+            &-img
+                max-width: 500px
+    .decision
+        &__parsing
+            &::after
+                width: 230px
+            &::before
+                width: 30px
+        .parsing-title
+            top: calc(-30% - 30px)
+    .total
+        height: 350px
+        &__text
+            top: 25%
+@media ( max-width: 425px )
+    .promo
+        padding: 60px 0 80px 0
+        &__logo
+            width: 140px
+        &__title
+            font-size: 28px
+    .task
+        padding: 100px 0
+        &__title
+            top: -23%
+            left: 2%
+        &__text
+            &:nth-last-child(1)
+                margin: 0
+        &__border
+            border: none
+            padding: 0
+            &::after
+                display: none
+            &::before
+                display: none
+    .study
+        &__wrapper
+            flex-direction: column
+        &__blocks
+            width: 100%
+        &__block-hidden
+            border-bottom: 1px solid $second-color-03op
+            &:nth-last-child(2)
+                border: none
+        &__project
+            display: none
+        .line
+            display: none
+    .decision
+        &__parsing
+            border: none
+            padding: 40px 0 0 0
+            &::after
+                display: none
+            &::before
+                display: none
+            .parsing-title
+                left: 0%
+                top: -80%
+    .total
+        &__text
+            left: 10%
+    .reviews
+        padding: 50px 0 250px 0
+        &__img
+            margin: 20px 0
+        &__descr
+            font-size: 16px
+            width: 100%
+            text-align: center
+        &__subtitle
+            font-size: 20px
+        &__block-1, &__block-2
+            flex-direction: column
+@media ( max-width: 375px )
+    .task
+        &__title
+            top: -20%
+        &__border
+            flex-direction: column
+        &__subtitle
+            margin: 20px 0 15px 0
+    .total
+        &__text
+            left: 3%
+@media ( max-width: 320px )
+    .container
+        padding: 0 10px

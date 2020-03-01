@@ -1,0 +1,55 @@
+.decision
+    padding: 90px 0 200px 0
+    &__parsing
+        border: 2px solid $second-color
+        width: 445px
+        border-top: none
+        padding: 50px
+        position: relative
+        &::after 
+            content: ''
+            position: absolute
+            top: 0%
+            right: 0%
+            border-top: 2px solid $second-color
+            width: 150px
+        &::before 
+            content: ''
+            position: absolute
+            top: 0%
+            left: 0%
+            border-top: 2px solid $second-color
+            width: 30px
+        .parsing-title
+            position: absolute
+            top: calc(-50% - -10px)
+            left: 10%
+            -webkit-text-stroke: 1px
+            -webkit-text-stroke-color: $second-color
+            color: #ffffff00
+            font-size: 52px
+            font-weight: 700
+    &__wrapper
+        position: relative
+        max-width: 440px
+        margin-top: 30px
+    hr
+        border: 1px solid $second-color-03op
+        width: 380px
+        float: left
+        margin: 60px 0
+    &__subtitle
+        font-size: 24px
+        font-weight: 700
+        margin-bottom: 25px
+    &__descr
+        font-size: 18px
+        font-weight: 400
+    &__liner
+        position: absolute
+        top: calc(-10% - 80px)
+        left: 90%
+    &__advantages
+        position: absolute
+        top: calc(40% - 30px)
+        left: 110%
