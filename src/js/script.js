@@ -32,3 +32,5 @@ $(document).ready(function () {
         namer.innerHTML = 'Reaza Piri - CEO and co-founder';
     };
 });
+
+//correct js code 'not jQuery'
